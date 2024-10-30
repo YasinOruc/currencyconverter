@@ -3,7 +3,7 @@ import logging
 import os
 from dotenv import load_dotenv
 
-# Laad de API-sleutel uit het .env bestand
+
 load_dotenv()
 API_KEY = os.getenv("EXCHANGE_RATE_API_KEY")
 
